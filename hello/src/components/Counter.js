@@ -1,3 +1,7 @@
+// Counter Incrementation
+// using "this.setState" in class components
+
+
 import React, { Component } from 'react'
 
 class Counter extends Component {
