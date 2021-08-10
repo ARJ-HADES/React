@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-     <Greet name="Arjun" fullName="Arjun vinod">
+      <Message />
+      <Counter />
+     {/* <Greet name="Arjun" fullName="Arjun vinod">
        <p>
          His age is 25 props
        </p>
@@ -18,7 +21,7 @@ function App() {
      <Welcome name="Lalu" fullName="Sourabh Aniyeri"/>
      <Welcome name="Savya" fullName="Savayasach"/>
      <Welcome name="Sreekuttan" fullName="Sreehari"/>
-     {/* <Hello /> */}
+     <Hello /> */}
     </div>
   );
 }
