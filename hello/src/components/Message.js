@@ -1,3 +1,5 @@
+// using "this.state" in class components
+
 import React, { Component } from 'react'
 
 class Message extends Component{
