@@ -13,7 +13,7 @@ constructor(props) {
          count: 0
     }
 }
-
+// basic scenario start
 increment(){
 
     // this.setState({
@@ -24,7 +24,7 @@ increment(){
     // }
     
     // )
-
+// tough scenario start
     this.setState((prevState)=>({
         count: prevState.count + 1 
     }))
@@ -40,7 +40,7 @@ incrementFive (){
     this.increment()
 }
 
-
+// here in oncClick we can change the function to "increment" for normal scenario increment
     render() {
         return (
             <div>
